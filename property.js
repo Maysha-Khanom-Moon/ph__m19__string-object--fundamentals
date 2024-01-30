@@ -46,3 +46,7 @@ console.log(person['parent']);
 
 person['parent'] = 'baba'
 console.log(person.parent);
+
+
+// non-existential properties
+console.log(person.son); // undefined
